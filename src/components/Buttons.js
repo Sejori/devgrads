@@ -48,7 +48,7 @@ class Buttons extends Component {
       this.state.content =
         <div className="access-link">
           <a href="mailto:business@techgrads.co.uk?subject=Request access to TechGrad list&amp;body=Hi TechGrads.co.uk, I'd like access to the list of TechGrads">
-            Get in touch so that we may put you in contact with a TechGrad!
+            Get in touch so that we may put you in contact with a DevGrad!
           </a>
         </div>
 
@@ -58,7 +58,7 @@ class Buttons extends Component {
       <div className="main-content">
         ARE YOU:
         <div className="inner">
-          <button onClick={this.clickGrad}>A TECHGRAD</button><button onClick={this.clickLFGrad}>LOOKING FOR A TECHGRAD</button>
+          <button onClick={this.clickGrad}>A DEVGRAD</button><button onClick={this.clickLFGrad}>LOOKING FOR A DEVGRAD</button>
         </div>
         <div className="expanded-content">
           {this.state.content}
