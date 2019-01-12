@@ -47,7 +47,7 @@ class Buttons extends Component {
 
       this.state.content =
         <div className="access-link">
-          <a href="mailto:business@techgrads.co.uk?subject=Request access to TechGrad list&amp;body=Hi TechGrads.co.uk, I'd like access to the list of TechGrads">
+          <a href="mailto:business@devgrads.co.uk?subject=Request access to DevGrad list&amp;body=Hi DevGrads.co.uk, I'd like access to the list of DevGrads">
             Get in touch so that we may put you in contact with a DevGrad!
           </a>
         </div>
